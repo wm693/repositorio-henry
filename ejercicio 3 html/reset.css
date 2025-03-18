@@ -1,0 +1,56 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Evitar problemas con fuentes */
+html {
+  font-size: 100%;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Mejora accesibilidad y tipografía */
+body {
+  font-family: sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Asegurar que imágenes y medios no sobresalgan */
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Quitar estilos de listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Eliminar decoración en enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Botones sin estilos nativos */
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+/* Ajustar elementos de formulario */
+input, textarea, select, button {
+  font: inherit;
+}
+
+/* Asegurar compatibilidad con flexbox y grid */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
